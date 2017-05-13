@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		744005F51EC7A861005A5FCF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744005F41EC7A861005A5FCF /* main.swift */; };
+		7474D7411EC7A92D00F3E05E /* TankWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7474D7401EC7A92D00F3E05E /* TankWorld.swift */; };
+		7474D7431EC7A95900F3E05E /* Game Object.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7474D7421EC7A95900F3E05E /* Game Object.swift */; };
+		7474D7451EC7A97A00F3E05E /* Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7474D7441EC7A97A00F3E05E /* Position.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		744005F11EC7A861005A5FCF /* TankWorld */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TankWorld; sourceTree = BUILT_PRODUCTS_DIR; };
 		744005F41EC7A861005A5FCF /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		7474D7401EC7A92D00F3E05E /* TankWorld.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TankWorld.swift; sourceTree = "<group>"; };
+		7474D7421EC7A95900F3E05E /* Game Object.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Game Object.swift"; sourceTree = "<group>"; };
+		7474D7441EC7A97A00F3E05E /* Position.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Position.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				744005F41EC7A861005A5FCF /* main.swift */,
+				7474D7401EC7A92D00F3E05E /* TankWorld.swift */,
+				7474D7421EC7A95900F3E05E /* Game Object.swift */,
+				7474D7441EC7A97A00F3E05E /* Position.swift */,
 			);
 			path = TankWorld;
 			sourceTree = "<group>";
@@ -120,6 +129,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7474D7431EC7A95900F3E05E /* Game Object.swift in Sources */,
+				7474D7411EC7A92D00F3E05E /* TankWorld.swift in Sources */,
+				7474D7451EC7A97A00F3E05E /* Position.swift in Sources */,
 				744005F51EC7A861005A5FCF /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,6 +264,7 @@
 				744005FA1EC7A861005A5FCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
